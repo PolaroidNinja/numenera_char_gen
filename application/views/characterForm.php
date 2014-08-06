@@ -9,20 +9,14 @@
 <?php echo form_open('character'); ?>
 		I am a 
 		<select name="descriptor">
-			<?php foreach($descriptors as $key => $item):?>
-				<option value="<?=$key; ?>"><?=$item->name; ?></option>
-			<?php endforeach; ?>
+			<?php $this->load->view($optionsPartial, ["data" => $descriptors]);?>
 		</select>
 		<select name="type">
-			<option>Glaive</option>
-			<option>Nano</option>
-			<option>Jack</option>
+			<?php $this->load->view($optionsPartial, ["data" => $types]);?>
 		</select>
 		, who
 		<select name="focus">
-			<option>Bears a Halo of Fire</option>
-			<option>Fuses Flesh and Steel</option>
-			<option>Wears a Sheen of Ice</option>
+			<?php $this->load->view($optionsPartial, ["data" => $foci]);?>
 		</select>
 		<button>Continue > </button>
 	</form>
