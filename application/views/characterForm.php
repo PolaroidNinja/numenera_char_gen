@@ -1,8 +1,11 @@
 <html>
 <head>
 <title>Character</title>
+<link rel="stylesheet" type="text/css" href="/public/css/background_style.css">
+
 </head>
 <body>
+	<div id= "container">
 	<h1>New Character</h1>
 <?php echo validation_errors(); ?>
 
@@ -18,7 +21,8 @@
 		<select name="focus">
 			<?php $this->load->view($optionsPartial, ["data" => $foci]);?>
 		</select>
-		<button>Continue > </button>
+		<button> > </button>
 	</form>
+	</div>
 </body>
 </html>
