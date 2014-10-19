@@ -1,11 +1,11 @@
 <html>
 <head>
 <title>Character</title>
-<link rel="stylesheet" type="text/css" href="/public/css/background_style.css">
+<link rel="stylesheet" type="text/css" href="/public/css/character_page_style.css">
 
 </head>
 <body>
-	<div id= "container">
+	<div id= "pageContainer">
 	<h1>New Character</h1>
 <?php echo validation_errors(); ?>
 

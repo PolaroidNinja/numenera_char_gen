@@ -6,7 +6,7 @@ html {
 	background-size: cover;
 }
 
-#container {
+#pageContainer {
 	width: 1050px;
 	margin: auto;
 	position: absolute;
@@ -17,7 +17,7 @@ html {
 }
 
 h1, form {
-	font-size: 250%;
+	font-size: 40px;
 	font-family: Times, serif;
 	text-shadow: 1px 1px 4px #000;
 	color: #0E3583;
@@ -26,7 +26,7 @@ h1, form {
 
 select, button {
 	background: transparent;
-	font-size: 100%;
+	font-size: 40px;
 	font-family: Times, serif;
 	text-shadow: 1px 1px 4px #000;
 	color: #0E3583;
