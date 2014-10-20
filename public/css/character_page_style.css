@@ -1,0 +1,37 @@
+html { 
+	background: url(images/Num_Char_Gen_Back.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#pageContainer {
+	width: 1050px;
+	margin: auto;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+h1, form {
+	font-size: 40px;
+	font-family: Times, serif;
+	text-shadow: 1px 1px 4px #000;
+	color: #0E3583;
+	margin: auto;
+}
+
+select, button {
+	background: transparent;
+	font-size: 40px;
+	font-family: Times, serif;
+	text-shadow: 1px 1px 4px #000;
+	color: #0E3583;
+	margin: auto;
+	border-style: dashed;
+	border-color: #0E3583;
+	border-width: 2px;
+}
