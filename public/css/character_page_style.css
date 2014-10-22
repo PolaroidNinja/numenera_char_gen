@@ -4,6 +4,7 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	border-bottom: 15px solid #a1b3c7;
 }
 
 #pageContainer {
@@ -20,18 +21,44 @@ h1, form {
 	font-size: 40px;
 	font-family: Times, serif;
 	text-shadow: 1px 1px 4px #000;
-	color: #0E3583;
+	color: white;
 	margin: auto;
+	font-weight: normal;
 }
 
-select, button {
-	background: transparent;
+select {
+	background: transparent url(images/arrow.png) no-repeat right center;
 	font-size: 40px;
 	font-family: Times, serif;
 	text-shadow: 1px 1px 4px #000;
-	color: #0E3583;
+	color: white;
 	margin: auto;
 	border-style: dashed;
-	border-color: #0E3583;
+	border-color: white;
 	border-width: 2px;
+	-webkit-appearance: none;
+	min-width: 155px;
+}
+
+select option {
+	background: #a1b3c7;
+}
+
+button {
+	position: fixed;
+	right: 10px;
+	top: 42%;
+	border-style: none;
+	font-weight: bold;
+	font-size: 100px;
+	background: transparent;
+	font-family: Times, serif;
+	text-shadow: 1px 1px 4px #000;
+	color: white;
+}
+
+#logo {
+	position: fixed;
+	right: 0;
+	bottom: -8;
 }

@@ -23,6 +23,7 @@
 		</select>
 		<button> > </button>
 	</form>
+	<img src="/public/css/images/Numenera_Logo.png" id= "logo" alt= "Logo">
 	</div>
 </body>
 </html>
