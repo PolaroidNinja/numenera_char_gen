@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Character</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/public/css/character_page_style.css">
 
 </head>
@@ -21,9 +22,9 @@
 		<select name="focus">
 			<?php $this->load->view($optionsPartial, ["data" => $foci]);?>
 		</select>
-		<button> > </button>
+		<button><a href="#"></a></button>
 	</form>
-	<img src="/public/css/images/Numenera_Logo.png" id= "logo" alt= "Logo">
+	<img src="/public/media/Numenera_Logo.png" id= "logo" alt= "Numenera Logo">
 	</div>
 </body>
 </html>

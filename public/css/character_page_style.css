@@ -1,4 +1,4 @@
-html { 
+body { 
 	background: url(images/Num_Char_Gen_Back.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -17,7 +17,7 @@ html {
 	right: 0;
 }
 
-h1, form {
+h1, form, select, button {
 	font-size: 40px;
 	font-family: Times, serif;
 	text-shadow: 1px 1px 4px #000;
@@ -28,11 +28,6 @@ h1, form {
 
 select {
 	background: transparent url(images/arrow.png) no-repeat right center;
-	font-size: 40px;
-	font-family: Times, serif;
-	text-shadow: 1px 1px 4px #000;
-	color: white;
-	margin: auto;
 	border-style: dashed;
 	border-color: white;
 	border-width: 2px;
@@ -48,13 +43,10 @@ button {
 	position: fixed;
 	right: 10px;
 	top: 42%;
+	height: 100px;
+	width: 60px;
 	border-style: none;
-	font-weight: bold;
-	font-size: 100px;
-	background: transparent;
-	font-family: Times, serif;
-	text-shadow: 1px 1px 4px #000;
-	color: white;
+	background: transparent url(images/Next_Arrow.png) no-repeat right center;
 }
 
 #logo {
