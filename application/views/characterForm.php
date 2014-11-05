@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div id= "pageContainer">
+	<div id= "formContainer">
 	<h1>New Character</h1>
 <?php echo validation_errors(); ?>
 
@@ -24,7 +25,8 @@
 		</select>
 		<button><a href="#"></a></button>
 	</form>
-	<img src="/public/media/Numenera_Logo.png" id= "logo" alt= "Numenera Logo">
+	</div>
+	<img src="/public/media/Numenera_Logo.png" id= "logo" alt= "Numenera Logo" class= "img-responsive">
 	</div>
 </body>
 </html>
